@@ -6,9 +6,9 @@ a1 =9
 
 def process():
     #print(n1)
-    m = 10+n1
     #print(m)
     #n1= n1*8
+    n1=90
 
 def anotherProcess(b1):
     print(a1)

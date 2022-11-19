@@ -1,15 +1,16 @@
 
 class City:
-    id = 10
 
-def add():
-    global id
+ def __init__(self):
+
+ def add():
+
     print("This is city method")
-    id =id+20
 
-obj = City()
-print(obj.id)
-add()
-print(obj.id)
+
+obj1 = City()
+print(obj1.id)
+obj1.add()
+print(obj1.id)
 
 
